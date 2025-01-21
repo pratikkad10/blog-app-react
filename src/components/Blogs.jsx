@@ -9,12 +9,12 @@ function Blogs() {
   
 
   return (
-    <div>
+    <div className=' w-1/2 mx-auto rounded-md p-4 shadow-gray-600 shadow-lg my-6'>
         {
             loading ? (<Spinner/>):
             (
                 posts.length===0 ? (
-                    <div>
+                    <div className='text-2xl text-center font-semibold text-zinc-800'>
                         <h1>No post found</h1>
                     </div>
                 ) : 
