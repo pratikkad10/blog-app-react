@@ -13,7 +13,7 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <div className='h-screen relative'>
       <Header/>
       <Blogs/>
       <Pagination/>

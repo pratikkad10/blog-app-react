@@ -9,7 +9,7 @@ function Blogs() {
   
 
   return (
-    <div className=' w-1/2 mx-auto rounded-md p-4 shadow-gray-600 shadow-lg my-6'>
+    <div className=' w-1/2 mx-auto rounded-md p-4  my-[3.8rem] '>
         {
             loading ? (<Spinner/>):
             (

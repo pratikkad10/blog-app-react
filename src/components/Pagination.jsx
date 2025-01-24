@@ -4,7 +4,7 @@ import { AppContext } from '../context/AppContext'
 function Pagination() {
   const {totalPages, page, handlePageChange}=useContext(AppContext);
   return (
-    <div className='flex items-center justify-center gap-6 bg-zinc-200 p-2 rounded-md '>
+    <div className='flex items-center justify-center gap-6 bg-zinc-200 p-2 rounded-md fixed bottom-0 w-full'>
         {
           page > 1 &&  
           <button 
